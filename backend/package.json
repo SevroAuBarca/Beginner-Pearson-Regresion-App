@@ -5,7 +5,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsc src/*.ts && nodemon ./src/index.js"
+    "dev": "nodemon ./src/index.js",
+    "compile": "tsc src/*.ts --watch"
   },
   "keywords": [],
   "author": "",
